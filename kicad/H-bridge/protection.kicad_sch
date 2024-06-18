@@ -2430,6 +2430,12 @@
 		(uuid "0964fc66-f1d2-4962-b8d0-2fb5d08d0a13")
 	)
 	(junction
+		(at 62.23 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "331b57ab-c7f9-4364-9308-e5e44debb5b7")
+	)
+	(junction
 		(at 52.07 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2611,6 +2617,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 157.48) (xy 62.23 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb7dfef-161e-4f04-9a51-cad4e8d08e30")
+	)
+	(wire
+		(pts
 			(xy 127 62.23) (xy 127 68.58)
 		)
 		(stroke
@@ -2668,6 +2684,16 @@
 			(type default)
 		)
 		(uuid "1e5ea50e-2f64-47fd-905a-61ce3a3641e4")
+	)
+	(wire
+		(pts
+			(xy 62.23 152.4) (xy 74.93 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209025a6-80da-4026-98ee-9f5103af03c3")
 	)
 	(wire
 		(pts
@@ -3161,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 152.4) (xy 52.07 152.4)
+			(xy 52.07 152.4) (xy 62.23 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3418,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "cc2f3e7c-a868-4938-8cdf-b8c65822a780")
+	)
+	(wire
+		(pts
+			(xy 62.23 165.1) (xy 62.23 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7aab35-c01d-42df-a6f5-b9684a709269")
 	)
 	(wire
 		(pts
@@ -4061,7 +4097,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "330"
 			(at 85.09 31.75 90)
 			(effects
 				(font
@@ -4088,6 +4124,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A129743CT-ND"
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRGCQ0805F330R"
 			(at 85.09 35.56 0)
 			(effects
 				(font
@@ -4128,7 +4182,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "DNP"
 			(at 66.04 98.806 90)
 			(effects
 				(font
@@ -4195,7 +4249,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "0"
 			(at 66.548 107.696 90)
 			(effects
 				(font
@@ -4222,6 +4276,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 62.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A106066CT-ND"
+			(at 62.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRG0805ZR"
 			(at 62.23 109.22 0)
 			(effects
 				(font
@@ -4436,6 +4508,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A106066CT-ND"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRG0805ZR"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "683e7630-db02-4c48-8026-a6a12a9e97e7")
 		)
@@ -4535,7 +4625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 113.538 123.19 0)
 			(effects
 				(font
@@ -4563,6 +4653,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -4736,7 +4844,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 82.55 130.81 90)
 			(effects
 				(font
@@ -4771,6 +4879,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "06b38b48-9bb8-44b4-85ee-f21e524acc94")
 		)
@@ -4781,6 +4907,91 @@
 			(project "H_bridge"
 				(path "/8510e844-3def-44d1-bcab-3572b2a43923/f24dd8f5-dede-4199-a3bf-173aa3d1c3ca"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b743c16-f496-422a-9d6c-bf72be518f96")
+		(property "Reference" "C18"
+			(at 60.198 157.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 61.2648 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 62.23 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
+			(at 62.23 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f6bb331-b900-4949-a25e-d3223850606e")
+		)
+		(pin "1"
+			(uuid "83fcdba9-039e-406a-a03f-481dc03fb12b")
+		)
+		(instances
+			(project "H_bridge"
+				(path "/8510e844-3def-44d1-bcab-3572b2a43923/f24dd8f5-dede-4199-a3bf-173aa3d1c3ca"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4805,7 +5016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 96.52 86.3599 0)
 			(effects
 				(font
@@ -4833,6 +5044,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A129761CT-ND"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRGCQ0805F10K"
 			(at 93.98 85.09 0)
 			(effects
 				(font
@@ -5152,6 +5381,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A106066CT-ND"
+			(at 187.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRG0805ZR"
+			(at 187.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "99acb509-374e-48d6-a87a-89841f24b88a")
 		)
@@ -5227,6 +5474,71 @@
 			(project "H_bridge"
 				(path "/8510e844-3def-44d1-bcab-3572b2a43923/f24dd8f5-dede-4199-a3bf-173aa3d1c3ca"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Coil_speedifier-rescue:GND-power")
+		(at 62.23 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a55c843-03ab-451f-b734-ee2624dea201")
+		(property "Reference" "#PWR044"
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 65.278 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5232b793-0763-40b6-bcc3-d84c01a50055")
+		)
+		(instances
+			(project "H_bridge"
+				(path "/8510e844-3def-44d1-bcab-3572b2a43923/f24dd8f5-dede-4199-a3bf-173aa3d1c3ca"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5572,7 +5884,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 39.37 149.86 90)
 			(effects
 				(font
@@ -5599,6 +5911,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 39.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 39.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 39.37 153.67 0)
 			(effects
 				(font
@@ -5784,21 +6114,19 @@
 		(fields_autoplaced yes)
 		(uuid "7498dff1-bf74-4766-bb34-3f3a34d48c41")
 		(property "Reference" "C10"
-			(at 129.5399 58.42 0)
+			(at 130.81 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 132.0799 58.42 0)
+		(property "Value" "100nF"
+			(at 130.81 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -5820,6 +6148,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 130.81 62.23 0)
 			(effects
 				(font
@@ -5862,7 +6208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 102.108 100.33 0)
 			(effects
 				(font
@@ -5890,6 +6236,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 100.33 104.14 0)
 			(effects
 				(font
@@ -6053,7 +6417,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 120.65 97.79 90)
 			(effects
 				(font
@@ -6088,6 +6452,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A129761CT-ND"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRGCQ0805F10K"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89f721e5-a3be-4101-a035-16adef22a491")
 		)
@@ -6111,7 +6493,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85ebf4f8-5811-4e93-b913-c11e93c528e0")
 		(property "Reference" "R11"
 			(at 62.23 120.65 90)
@@ -6121,8 +6502,8 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 62.23 123.19 90)
+		(property "Value" "0"
+			(at 64.262 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,6 +6529,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 62.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A106066CT-ND"
+			(at 62.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRG0805ZR"
 			(at 62.23 127 0)
 			(effects
 				(font
@@ -6310,7 +6709,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 134.62 182.88 90)
 			(effects
 				(font
@@ -6337,6 +6736,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 138.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 138.43 182.88 0)
 			(effects
 				(font
@@ -6734,6 +7151,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A106066CT-ND"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRG0805ZR"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82c94ad9-c607-4895-a265-6a47b52df3e5")
 		)
@@ -6803,6 +7238,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A106066CT-ND"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRG0805ZR"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b7ca8c3-4319-48ec-bfd5-a44eeaa7b5c5")
 		)
@@ -6835,7 +7288,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 82.55 165.1 90)
 			(effects
 				(font
@@ -6862,6 +7315,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 82.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 82.55 168.91 0)
 			(effects
 				(font
@@ -7397,7 +7868,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "330"
 			(at 187.96 31.75 90)
 			(effects
 				(font
@@ -7424,6 +7895,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A129743CT-ND"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRGCQ0805F330R"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -7653,7 +8142,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 167.64 182.88 90)
 			(effects
 				(font
@@ -7680,6 +8169,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 163.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 163.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 163.83 182.88 0)
 			(effects
 				(font
@@ -7955,7 +8462,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "faed4ce8-f69f-4e11-b733-e1e9830dbcd3")
 		(property "Reference" "R10"
 			(at 62.23 111.76 90)
@@ -7965,8 +8471,8 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 62.23 114.3 90)
+		(property "Value" "DNP"
+			(at 64.516 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)

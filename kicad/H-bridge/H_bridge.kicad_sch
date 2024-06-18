@@ -5615,6 +5615,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "160-1366-5-ND"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "LTV-817"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4deb1d02-a362-4cd8-bb20-aad385ebfd0b")
 		)
@@ -5681,6 +5699,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "PDS1-S15-S15-M"
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "102-4546-ND"
 			(at 99.06 167.64 0)
 			(effects
 				(font
@@ -5831,6 +5867,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A32260-ND"
+			(at 20.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "5227161-7"
+			(at 20.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5516310a-8283-4da5-93ac-1280396c693c")
 		)
@@ -5963,6 +6017,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A129741CT-ND"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRGCQ0805F220R"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "018774db-7aab-412a-8cfb-5d3ff2473038")
 		)
@@ -6060,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
+		(property "Value" "4.7k"
 			(at 69.85 172.1104 0)
 			(effects
 				(font
@@ -6087,6 +6159,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "490-BLM21HE472SN1LCT-ND"
+			(at 69.85 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BLM21HE472SN1L"
 			(at 69.85 175.26 0)
 			(effects
 				(font
@@ -6128,7 +6218,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 60.071 182.753 0)
 			(effects
 				(font
@@ -6156,6 +6246,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "445-14428-1-ND"
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C2012X5R1V226M125AC"
 			(at 57.15 181.61 0)
 			(effects
 				(font
@@ -6261,7 +6369,7 @@
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
+		(property "Value" "4.7k"
 			(at 43.18 172.1104 0)
 			(effects
 				(font
@@ -6288,6 +6396,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "490-BLM21HE472SN1LCT-ND"
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BLM21HE472SN1L"
 			(at 43.18 175.26 0)
 			(effects
 				(font
@@ -6328,7 +6454,7 @@
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
+		(property "Value" "4.7k"
 			(at 41.91 183.5404 0)
 			(effects
 				(font
@@ -6355,6 +6481,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 41.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "490-BLM21HE472SN1LCT-ND"
+			(at 41.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BLM21HE472SN1L"
 			(at 41.91 186.69 0)
 			(effects
 				(font
@@ -6461,7 +6605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 34.671 182.753 0)
 			(effects
 				(font
@@ -6489,6 +6633,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "445-14428-1-ND"
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C2012X5R1V226M125AC"
 			(at 31.75 181.61 0)
 			(effects
 				(font
@@ -6529,7 +6691,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "DNP"
 			(at 104.14 155.9306 90)
 			(effects
 				(font
@@ -6596,7 +6758,7 @@
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
+		(property "Value" "4.7k"
 			(at 129.54 169.5704 0)
 			(effects
 				(font
@@ -6623,6 +6785,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "490-BLM21HE472SN1LCT-ND"
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BLM21HE472SN1L"
 			(at 129.54 172.72 0)
 			(effects
 				(font
@@ -6663,7 +6843,7 @@
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
+		(property "Value" "4.7k"
 			(at 129.54 156.8704 0)
 			(effects
 				(font
@@ -6690,6 +6870,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "490-BLM21HE472SN1LCT-ND"
+			(at 129.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BLM21HE472SN1L"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -6731,7 +6929,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 145.161 167.513 0)
 			(effects
 				(font
@@ -6759,6 +6957,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "445-14428-1-ND"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C2012X5R1V226M125AC"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -7172,6 +7388,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A129761CT-ND"
+			(at 87.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRGCQ0805F10K"
 			(at 87.63 99.06 0)
 			(effects
 				(font
@@ -7802,16 +8036,15 @@
 	)
 	(symbol
 		(lib_id "Connecteor:spare")
-		(at 17.78 118.11 0)
+		(at 25.4 114.3 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a24b0ff-97c4-4bc2-8fca-21abf3a47c74")
 		(property "Reference" "BOM1"
-			(at 14.224 113.792 0)
+			(at 21.844 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,8 +8052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 16.256 120.396 0)
+		(property "Value" "Light-Pipe"
+			(at 23.876 112.014 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7829,7 +8062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.256 120.396 0)
+			(at 23.876 116.586 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7839,7 +8072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.256 120.396 0)
+			(at 23.876 116.586 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7849,7 +8082,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.256 120.396 0)
+			(at 23.876 116.586 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7858,8 +8091,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY" ""
-			(at 17.78 119.888 0)
+		(property "DIGIKEY" "350-3733-ND"
+			(at 25.4 116.078 0)
 			(show_name yes)
 			(do_not_autoplace yes)
 			(effects
@@ -7868,8 +8101,8 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
-			(at 17.78 118.11 0)
+		(property "PARTNO" "51513020125F"
+			(at 25.4 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7970,7 +8203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nF"
 			(at 170.18 81.2799 0)
 			(effects
 				(font
@@ -7998,6 +8231,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "399-C0805C473K2RECAUTOCT-ND"
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C0805C473K2RECAUTO"
 			(at 166.37 80.01 0)
 			(effects
 				(font
@@ -8040,7 +8291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nF"
 			(at 187.96 77.4699 0)
 			(effects
 				(font
@@ -8068,6 +8319,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "399-C0805C473K2RECAUTOCT-ND"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C0805C473K2RECAUTO"
 			(at 184.15 76.2 0)
 			(effects
 				(font
@@ -8174,7 +8443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 17.272 192.024 0)
 			(effects
 				(font
@@ -8202,6 +8471,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 21.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "445-14428-1-ND"
+			(at 21.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "C2012X5R1V226M125AC"
 			(at 21.59 190.5 0)
 			(effects
 				(font
@@ -8622,7 +8909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 96.52 109.2199 0)
 			(effects
 				(font
@@ -8650,6 +8937,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A129761CT-ND"
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRGCQ0805F10K"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -8781,7 +9086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100k"
 			(at 133.35 130.8099 0)
 			(effects
 				(font
@@ -8817,6 +9122,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A106052CT-ND"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRG0805F100K"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "274faf4c-5e54-4fd3-b0ae-fe81298febc4")
 		)
@@ -8827,6 +9150,90 @@
 			(project "H_bridge"
 				(path "/8510e844-3def-44d1-bcab-3572b2a43923"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connecteor:spare")
+		(at 25.4 133.35 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "899747bd-e89f-44dd-a2ab-c8923e4773c8")
+		(property "Reference" "LOGO_1"
+			(at 25.908 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 23.876 135.636 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:JQI-Logo"
+			(at 23.876 135.636 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.876 135.636 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 23.876 135.636 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 25.4 135.128 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" ""
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8510e844-3def-44d1-bcab-3572b2a43923"
+					(reference "LOGO_1")
 					(unit 1)
 				)
 			)
@@ -8982,7 +9389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 120.65 68.5799 0)
 			(effects
 				(font
@@ -9010,6 +9417,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 116.84 67.31 0)
 			(effects
 				(font
@@ -9414,7 +9839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100k"
 			(at 124.46 126.9999 0)
 			(effects
 				(font
@@ -9442,6 +9867,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A106052CT-ND"
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRG0805F100K"
 			(at 121.92 125.73 0)
 			(effects
 				(font
@@ -9755,7 +10198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 96.52 119.3799 0)
 			(effects
 				(font
@@ -9783,6 +10226,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 93.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A129761CT-ND"
+			(at 93.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CRGCQ0805F10K"
 			(at 93.98 118.11 0)
 			(effects
 				(font
@@ -9890,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 110.49 120.6499 0)
 			(effects
 				(font
@@ -9918,6 +10379,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 106.68 119.38 0)
 			(effects
 				(font

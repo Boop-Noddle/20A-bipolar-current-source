@@ -2192,16 +2192,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 162.56 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a3d2599-ab98-4d0c-9ca5-465c1ad4ccb3")
-	)
-	(wire
-		(pts
 			(xy 66.04 35.56) (xy 66.04 39.37)
 		)
 		(stroke
@@ -2329,16 +2319,6 @@
 			(type default)
 		)
 		(uuid "6f24c842-647a-4725-86b0-fcaa85639f34")
-	)
-	(wire
-		(pts
-			(xy 134.62 73.66) (xy 134.62 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "771444fc-10bc-4192-9ebe-802e3791edb2")
 	)
 	(wire
 		(pts
@@ -2502,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 162.56 104.14)
+			(xy 162.56 73.66) (xy 162.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 83.82) (xy 134.62 104.14)
+			(xy 134.62 73.66) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2784,16 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PARTNO" "IXFN520N075T2-ND"
+		(property "DIGIKEY" "IXFN520N075T2-ND"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "IXFN520N075T2"
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -2848,7 +2837,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Shunt"
+		(property "Value" "0.01 R_Shunt"
 			(at 123.19 101.6 90)
 			(effects
 				(font
@@ -2876,6 +2865,24 @@
 		)
 		(property "Description" ""
 			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "696-PCS-0R01D1-ND"
+			(at 123.19 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "PCS-0R01D1"
+			(at 123.19 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,6 +3105,24 @@
 			)
 		)
 		(property "MPN" "C0603C104J5RACAUTO"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
 			(at 120.65 81.28 0)
 			(effects
 				(font
@@ -3384,7 +3409,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY" ""
+		(property "DIGIKEY" "2453710000-ND"
 			(at 212.09 34.29 0)
 			(effects
 				(font
@@ -3393,7 +3418,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "2453710000"
 			(at 212.09 34.29 0)
 			(effects
 				(font
@@ -3610,7 +3635,16 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PARTNO" "IXFN520N075T2-ND"
+		(property "DIGIKEY" "IXFN520N075T2-ND"
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "IXFN520N075T2"
 			(at 160.02 68.58 0)
 			(effects
 				(font
@@ -3741,7 +3775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_UBY_18X35P5_NCH"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 			(at 66.04 46.99 0)
 			(effects
 				(font
@@ -3763,6 +3797,24 @@
 		)
 		(property "Description" ""
 			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "493-16867-ND"
+			(at 66.04 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "UKL1J102KHD"
+			(at 66.04 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,180 +3900,6 @@
 			(project "SchineLab_CoilFET_Board"
 				(path "/2f21daab-ac04-42a8-876c-c86138d20a60"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rear-rescue:C-rear-rescue")
-		(at 152.4 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47874722-14ad-47f4-9c26-6deec8422252")
-		(property "Reference" "C2"
-			(at 151.765 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 151.765 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 151.4348 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY PARTNO" "399-6853-1-ND"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104J5RACAUTO"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96ab6831-1f65-4ad9-9aff-7c9cc81d3019")
-		)
-		(pin "2"
-			(uuid "8941d2f4-0604-4c81-9185-403f96b39e19")
-		)
-		(instances
-			(project "Unipolar_FET_Board"
-				(path "/2f21daab-ac04-42a8-876c-c86138d20a60"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rear-rescue:C-rear-rescue")
-		(at 200.66 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f9ef54c-a852-46d8-a6bb-1de0420a1b5a")
-		(property "Reference" "C1"
-			(at 200.025 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 200.025 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 199.6948 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY PARTNO" "399-6853-1-ND"
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C104J5RACAUTO"
-			(at 200.66 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d51cca7-24ff-4669-8931-90fab29a5273")
-		)
-		(pin "2"
-			(uuid "47cb078a-1c05-482a-881e-54f457f36756")
-		)
-		(instances
-			(project "Unipolar_FET_Board"
-				(path "/2f21daab-ac04-42a8-876c-c86138d20a60"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4280,6 +4158,111 @@
 			(project "Unipolar_FET_Board"
 				(path "/2f21daab-ac04-42a8-876c-c86138d20a60"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rear-rescue:C-rear-rescue")
+		(at 152.4 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fda9df8-74d6-4965-a303-45847f6e6cf2")
+		(property "Reference" "C2"
+			(at 151.765 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 151.765 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 151.4348 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PARTNO" "399-6853-1-ND"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104J5RACAUTO"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7d908f3-ed87-45b5-ba1c-73e57102769b")
+		)
+		(pin "2"
+			(uuid "2a1e2338-78ae-44c4-9639-d20e7e47465a")
+		)
+		(instances
+			(project "Unipolar_FET_Board"
+				(path "/2f21daab-ac04-42a8-876c-c86138d20a60"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4700,91 +4683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "rear-rescue:R-rear-rescue")
-		(at 134.62 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6724ab9-edb1-409c-b6e1-c79b76fdacca")
-		(property "Reference" "R5"
-			(at 132.588 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 134.62 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "zmyfootprint:res_2818"
-			(at 136.398 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY" "541-3276-1-ND"
-			(at 134.62 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "WSHP2818R0100FEA"
-			(at 134.62 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cd12089-9e1b-4503-a4af-eae90b55b860")
-		)
-		(pin "2"
-			(uuid "15db58c9-2b36-475a-8431-0c6271608b9f")
-		)
-		(instances
-			(project "Unipolar_FET_Board"
-				(path "/2f21daab-ac04-42a8-876c-c86138d20a60"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 93.98 83.82 0)
 		(mirror x)
@@ -4918,32 +4816,34 @@
 		)
 	)
 	(symbol
-		(lib_id "rear-rescue:R-rear-rescue")
-		(at 162.56 80.01 180)
+		(lib_id "rear-rescue:C-rear-rescue")
+		(at 200.66 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f70c3e7e-3d1a-4179-8811-2e721a2e7626")
-		(property "Reference" "R6"
-			(at 160.528 80.01 90)
+		(uuid "f866959b-598c-4c46-8816-f22593bf9545")
+		(property "Reference" "C1"
+			(at 200.025 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "20"
-			(at 162.56 80.01 90)
+		(property "Value" "0.1uF"
+			(at 200.025 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "zmyfootprint:res_2818"
-			(at 164.338 80.01 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 199.6948 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 80.01 0)
+			(at 200.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +4861,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 80.01 0)
+			(at 200.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,8 +4869,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY" "541-3276-1-ND"
-			(at 162.56 80.01 90)
+		(property "DIGIKEY PARTNO" "399-6853-1-ND"
+			(at 200.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,8 +4878,26 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "WSHP2818R0100FEA"
-			(at 162.56 80.01 90)
+		(property "MPN" "C0603C104J5RACAUTO"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "311-1140-1-ND"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0805KRX7R9BB104"
+			(at 200.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,15 +4906,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9ee1077-1c4c-403f-9c96-248945f5d5bf")
+			(uuid "b267e02d-065a-4bab-a991-da8098db0cd2")
 		)
 		(pin "2"
-			(uuid "bab682af-4851-4b3b-a82c-9bfa0d8bce51")
+			(uuid "9e060f5d-e4b4-4a86-baf8-1305a334037e")
 		)
 		(instances
 			(project "Unipolar_FET_Board"
 				(path "/2f21daab-ac04-42a8-876c-c86138d20a60"
-					(reference "R6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
